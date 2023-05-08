@@ -55,7 +55,9 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+**/*env*
+!.env.example
+!**/.env.example
 
 # next.js build output
 .next
@@ -153,3 +155,6 @@ appConfig.js
 
 package-lock.json
 
+serverless-functions/.env.prod
+serverless-functions/.env.prod
+serverless-functions/.env.prod
