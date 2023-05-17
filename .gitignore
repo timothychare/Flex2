@@ -1,3 +1,6 @@
+# Specific files
+!**/next-env.d.ts
+
 # Logs
 logs
 *.log
