@@ -154,7 +154,7 @@ test-results/
 # eslint results
 eslint_report.json
 
-appConfig.js
+# appConfig.js
 
 package-lock.json
 
