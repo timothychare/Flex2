@@ -57,10 +57,7 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-**/*env*
-!.env.example
-!**/.env.example
+
 
 # next.js build output
 .next
@@ -156,8 +153,21 @@ eslint_report.json
 
 # appConfig.js
 
+# dotenv environment variables file
+
+!.env.example
+!**/.env.example
+
 package-lock.json
 
+
 serverless-functions/.env.prod
-serverless-functions/.env.prod
-serverless-functions/.env.prod
+/serverless-functions/.env.qa
+/serverless-functions/.env.dev
+/serverless-functions/.env.test
+serverless-schedule-manager/.env.test
+serverless-schedule-manager/.env.qa
+serverless-schedule-manager/.env.prod
+serverless-schedule-manager/.env.dev
+serverless-functions/.env
+.env

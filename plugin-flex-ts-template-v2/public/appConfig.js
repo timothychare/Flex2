@@ -129,7 +129,7 @@ var appConfig = {
     enabled: false,
   },
   chat_transfer: {
-    enabled: false,
+    enabled: true,
   },
   agent_automation: {
     enabled: true,
