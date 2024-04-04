@@ -18,7 +18,7 @@
     "twilio": "twilio"
   },
   "dependencies": {
-    "@twilio/flex-plugin-scripts": "6.0.2",
+    "@twilio/flex-plugin-scripts": "6.3.2",
     "@types/jest": "^26.0.20",
     "lodash": "^4.17.20",
     "react": "16.5.2",
